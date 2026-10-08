@@ -1,0 +1,1 @@
+{"statusCode":202,"data":{"jobId":"job_e4fb673a5a2f8e794a51a918","status":"pending","pollUrl":"/v1/jobs/job_e4fb673a5a2f8e794a51a918","estimatedSeconds":45},"meta":{"requestId":"req_01M4CXNBYEMG7SQ61X2X1MASSB","creditsCharged":0,"platforms":["airbnb"]}}
