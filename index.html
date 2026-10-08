@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>50 Websites That Feel Illegal to Know</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <h1>🚨 50 Websites That Feel Illegal to Know</h1>
+    <p class="subtitle">A personal toolkit checklist. Click "Install" on anything you want to add to your workflow — it opens the site and marks it as installed on this device.</p>
+    <div class="progress-wrap">
+      <div class="progress-label"><span id="installedCount">0</span> / 50 installed</div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+    <div class="controls">
+      <input type="search" id="searchBox" placeholder="Search 50 websites…" autocomplete="off">
+      <div class="filter-row" id="filterRow"></div>
+    </div>
+    <div class="bulk-actions">
+      <button id="installAllBtn" class="btn btn-ghost">Mark all as installed</button>
+      <button id="resetAllBtn" class="btn btn-ghost btn-danger">Reset all</button>
+    </div>
+  </div>
+</header>
+
+<main id="grid" class="grid"></main>
+
+<footer>
+  <p>Static, client-side only. Your "installed" choices are saved in this browser's local storage — nothing is sent anywhere. Links go directly to the official sites.</p>
+</footer>
+
+<script src="sites.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
